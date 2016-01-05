@@ -1,0 +1,23 @@
+{
+  "name": "undera/doctrine-dbal-influxdb",
+  "description": "InfluxDB driver for PHP Doctrine DBAL",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Pokhilko",
+      "email": "apc4@ya.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "doctrine/dbal": "~2.5",
+    "influxdb/influxdb-php": "~1",
+    "phpunit/phpunit": "~4"
+  },
+  "autoload": {
+    "psr-0": {
+      "InfluxDBAL\\": "InfluxDBAL"
+    }
+  }
+}
